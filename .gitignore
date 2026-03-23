@@ -1,0 +1,9 @@
+.env
+.DS_Store
+node_modules/
+
+# Private data — contains real names, financials, and sensitive context
+state/
+context/
+output/
+.claude/

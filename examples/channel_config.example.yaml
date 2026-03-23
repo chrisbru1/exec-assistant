@@ -1,0 +1,63 @@
+# Slack Channel Priority Configuration — EXAMPLE
+# Copy to context/channel_config.yaml and fill in your real channel IDs.
+#
+# P0: Always read, always surface relevant activity
+# P1: Read daily, surface decisions/asks/escalations only
+# P2: Scan weekly (weekly narrative only), surface only if you're mentioned
+# Ignore: Never read
+
+channels:
+  p0_critical:
+    description: "Always scan, always surface"
+    channels:
+      - name: "Direct Messages"
+        id: "DM"
+      - name: "Leadership Team"
+        id: "YOUR_CHANNEL_ID"
+      - name: "Finance"
+        id: "YOUR_CHANNEL_ID"
+      - name: "Executive Team"
+        id: "YOUR_CHANNEL_ID"
+
+  p1_important:
+    description: "Daily scan, surface decisions and asks"
+    channels:
+      - name: "Deal Desk"
+        id: "YOUR_CHANNEL_ID"
+      - name: "Product-Finance Cross-functional"
+        id: "YOUR_CHANNEL_ID"
+      - name: "Billing"
+        id: "YOUR_CHANNEL_ID"
+
+  p2_scan:
+    description: "Weekly scan only, surface if you're mentioned"
+    channels:
+      - name: "General"
+        id: "YOUR_CHANNEL_ID"
+      - name: "Engineering"
+        id: "YOUR_CHANNEL_ID"
+      - name: "Product"
+        id: "YOUR_CHANNEL_ID"
+
+  ignore:
+    description: "Never read"
+    channels:
+      - name: "Random"
+        id: "YOUR_CHANNEL_ID"
+
+# Always surface messages from these people regardless of channel
+always_surface_from:
+  - "CEO Name"
+  - "CTO Name"
+  - "Your Direct Report 1"
+  - "Your Direct Report 2"
+
+# Keywords that elevate any message to "surface it"
+escalation_keywords:
+  - "urgent"
+  - "blocker"
+  - "decision needed"
+  - "approval"
+  - "board"
+  - "budget"
+  - "headcount"
