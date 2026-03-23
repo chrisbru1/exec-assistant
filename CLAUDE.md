@@ -17,7 +17,7 @@ Read `context/brubaker.md` for full context. Key points:
 
 Read `context/postscript.md` for full company context. Key points:
 - Postscript: SMS/MMS marketing platform for ecommerce, 20K merchants, 130M+ subscribers
-- Currently executing "Postscript 2.0" — expanding beyond SMS to email, AI-native products, and acquisition
+- Currently executing "Postscript 2.0" — expanding into AI-native products and new channels
 - Three parallel tracks: Oak (core product, Beller), Acorn (AI-native rebuild, Adam), Gimme (acquisition network, Colin)
 - Strategic framework: "Grow 10 or Earn 40" — company is on Path 1 (grow)
 - Key metric: 25% YoY net revenue growth exiting Q4 2026

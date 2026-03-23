@@ -1,6 +1,6 @@
 # Active Projects — EXAMPLE
 
-## Email Platform Launch (P0)
+## New Product Launch (P0)
 - **Owner:** CPO — you own financial modeling
 - **Status:** On track
 - **Key dates:** Board preview Apr 15, GA target Q2
@@ -9,7 +9,7 @@
 - **Open items:**
   - [ ] Finalize pricing tiers with CRO and CPO (due Mar 28)
   - [ ] Draft board narrative section on TAM (due Apr 10)
-- **Context:** 33% of last year's churn was customers wanting a bundled solution. This launch directly addresses the #1 churn driver.
+- **Context:** Addresses a top churn driver identified in last year's analysis. Expands platform capabilities into an adjacent market.
 
 ## Q1 Close & Board Prep (P0)
 - **Owner:** You + Accounting Lead
